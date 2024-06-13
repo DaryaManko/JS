@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider" id="slider">
+          <div class="slide">
+            <img src="image1.jpg" alt="Slide 1" width="400" height="341">
+          </div>
+          <div class="slide">
+            <img src="image2.jpg" alt="Slide 2" width="400" height="341">
+          </div>
+          <div class="slide">
+            <img src="image3.jpg" alt="Slide 3" width="400" height="341">
+          </div>
+        </div>
+      </div>
+        <div class="nav">
+            <button id="prev" class="nav-btn">Wstecz</button>
+            <button id="next" class="nav-btn">Dalej</button>
+        </div>
+        <div class="dots" id="dots">
+            <span class="dot" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
