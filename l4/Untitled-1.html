@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes</title>
+</head>
+<body>
+    <h1>Notes</h1>
+    <form id="note-form">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="description" placeholder="Description">
+        <input type="color" id="color" value="#bbbbbb">
+        <button id="add-note">Add Note</button>
+    </form>
+    <div id="notes-container">
+        <h2>Pinned</h2>
+        <div id="pinned-notes"></div>
+        <h2>Other</h2>
+        <div id="other-notes"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
