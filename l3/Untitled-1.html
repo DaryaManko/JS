@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Instrument</h1>
+    <div class="instrument">
+        <button data-key="65">A</button>
+        <audio src="kick.wav" id="kick-audio"></audio>
+        
+        <button data-key="83">B</button>
+        <audio src="clap.wav" id="snare-audio"></audio>
+
+        <button data-key="68">S</button>
+        <audio src="hihat.wav" id="snare-audio"></audio>
+
+        <button data-key="70">C</button>
+        <audio src="boom.wav" id="snare-audio"></audio>
+        
+     
+        <div class="recorder">
+            <button id="record">Nagraj</button>
+            <button id="play">Odtwórz</button>
+            <button id="stop">Zatrzymaj</button>
+            <div class="channels">
+                <div class="channel" id="channel-1">
+                    <input type="checkbox" id="channel-1-checkbox">
+                    <label for="channel-1-checkbox">Kanał 1</label>
+                </div>
+                <div class="channel" id="channel-2">
+                    <input type="checkbox" id="channel-2-checkbox">
+                    <label for="channel-2-checkbox">Kanał 2</label>
+                </div>
+                <div class="channel" id="channel-3">
+                    <input type="checkbox" id="channel-3-checkbox">
+                    <label for="channel-3-checkbox">Kanał 3</label>
+                </div>
+                <div class="channel" id="channel-4">
+                    <input type="checkbox" id="channel-4-checkbox">
+                    <label for="channel-4-checkbox">Kanał 4</label>
+                </div>
+            </div>
+            <div class="metronom">
+                <label for="metronom-bpm">BPM:</label>
+                <input type="number" id="metronom-bpm" value="120">
+                <button id="metronom-toggle">Włącz/Wyłącz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

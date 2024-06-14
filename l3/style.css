@@ -1,0 +1,42 @@
+.instrument {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.keys button {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.recorder {
+    margin-top: 20px;
+}
+
+.channels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.channel {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.channel:hover {
+    background-color: #f0f0f0;
+}
